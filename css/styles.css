@@ -32,6 +32,29 @@ p {
   font-size: 18px;
 }
 
+.top-ten {
+  text-align: left !important;
+  margin-top: 60px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.top-ten p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #ffffff !important;
+}
+
+.playing-pics {
+  padding-top: 40px;
+}
+
+.playing-pics p {
+  font-size: 14px;
+  color: #666666;
+  margin: 10px 20px 80px 20px;
+}
+
 .profile-box {
   padding: 26% 5% 0px 10%;
   max-width: 700px;
@@ -76,7 +99,7 @@ p {
 }
 
 .name {
-  font-size: 50px;
+  font-size: 60px;
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 2px;
