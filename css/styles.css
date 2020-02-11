@@ -56,19 +56,35 @@ p {
 }
 
 .profile-box {
-  padding: 18% 5% 10% 10%;
-  max-width: 700px;
+  padding-left: 5%;
+  padding-top: 1%;
+  /*max-width: 700px;*/
   color: #ffffff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .profile-box {
-    padding: 20% 10% 40px 10%;
+    padding-left: 10%;
+    padding-top: 1%;
+  }
+}
+
+
+.hero-video-box {
+  min-height: 500px;
+  padding: 2%;
+}
+
+@media (max-width: 768px) {
+  .hero-video-box {
+    min-height: 400px;
+    padding: 2%;
   }
 }
 
 .hero-box {
   background-color: #c51c22;
+  padding-top: 100px;
 }
 
 .faq {
@@ -82,7 +98,7 @@ p {
   margin: 5px 0px 0px 0px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .headline {
     font-size: 14px;
   }
@@ -92,7 +108,7 @@ p {
   font-size: 24px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .headline-large {
     font-size: 20px;
   }
@@ -108,7 +124,7 @@ p {
   margin-bottom:20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .name {
     font-size: 40px;
   }
